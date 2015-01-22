@@ -1,0 +1,40 @@
+div {
+  float: left;
+  display: block;
+  width: 25px;
+  height: 200px;
+  margin: 100px;
+}
+
+li {
+  display: block;
+  width: 25px;
+  height: 50px;
+  background: black;
+  border: 2px solid black;
+  style: none;
+  float: top;
+}
+
+.one {
+  background: red;
+  width: 50px;
+  margin-left: -10px;
+}
+
+.two {
+  background: green;
+  width: 75px;
+  margin-left: -22px;
+}
+
+.three {
+  background: yellow;
+  width: 100px;
+  margin-left: -35px;
+}
+
+.selected {
+  width: 200px;
+  border: 20px solid blue;
+}

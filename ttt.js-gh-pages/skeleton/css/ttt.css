@@ -1,0 +1,21 @@
+li {
+  display: inline-block;
+  height: 100px;
+  width: 100px;
+  float: left;
+  background: grey;
+  border: 2px solid black;
+  style: none;
+}
+
+li:hover {
+  background: yellow; 
+}
+
+body {
+  display: block;
+  width: 330px;
+  height: 360px;
+  margin-left: auto;
+  margin-right: auto;
+}

@@ -1,0 +1,17 @@
+<html>
+  <head>
+    <title>Hanoi Game</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="../css/hanoi.css">
+  </head>
+  <body>
+    <script src="../../ttt.js-gh-pages/skeleton/js/jquery-2.1.1.js"></script>
+    <script src="../hanoi-core-solution/hanoi-core.js"> </script>
+    <script src="../js/hanoiView.js"> </script>
+
+    <script>
+      var Game = new Hanoi.Game()
+      var View = new Hanoi.View(Game, $("body"))
+    </script>
+  </body>
+</html>
