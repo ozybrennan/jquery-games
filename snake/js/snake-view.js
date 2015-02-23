@@ -10,11 +10,6 @@
     window.setInterval(this.step.bind(this), 500)
   }
 
-  // View.prototype.render = function($el) {
-  //     var $pre = $(<pre></pre>)
-  //     var $pre.content( )
-  // }
-
   View.prototype.handleKeyEvent = function (event) {
     var key = event.keyCode
     if (key === "ArrowDown") {
